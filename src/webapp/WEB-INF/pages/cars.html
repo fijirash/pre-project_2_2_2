@@ -7,7 +7,9 @@
 <body>
 
 <div th:each="car : ${cars}">
-    <a th:text="${car}"></a>
+    <ul>
+        <li th:text="${car}"></li>
+    </ul>
 </div>
 
 </body>
